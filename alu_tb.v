@@ -6,12 +6,14 @@ module alu_tb;
 	reg [31:0] b;
 
 	wire [31:0] result;
+	wire zero;
 
 	alu uut (
 		.opcode(opcode), 
 		.a(a), 
 		.b(b), 
-		.result(result)
+		.result(result),
+		.zero(zero)
 	);
 
 	initial begin
@@ -37,4 +39,3 @@ module alu_tb;
 		$finish;
 	end
 endmodule
-

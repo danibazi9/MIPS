@@ -8,4 +8,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 800 ns : File "D:/activeHdlProjects/mips-alu/ALU/alu_tb.v" Line 37
+Stopped at time : 800 ns : File "D:/activeHdlProjects/mips-alu/ALU/alu_tb.v" Line 39

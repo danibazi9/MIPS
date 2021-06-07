@@ -34,7 +34,8 @@ module alu(opcode, a, b, result, zero);
 			end
 			4'b0101: // LUI
 			begin
-				result <= a;
+				result[31:16] <= a;
+				result[15:0] <= 16'b0000000000000000;
 			end
 			4'b0110: // SLL
 			begin

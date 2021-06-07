@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/activeHdlProjects/mips-alu/ALU/alu_tb_isim_beh.exe" -prj "D:/activeHdlProjects/mips-alu/ALU/alu_tb_beh.prj" "work.alu_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/activeHdlProjects/mips-alu/ALU/datapath_tb_isim_beh.exe" -prj "D:/activeHdlProjects/mips-alu/ALU/datapath_tb_beh.prj" "work.datapath_tb" "work.glbl" 

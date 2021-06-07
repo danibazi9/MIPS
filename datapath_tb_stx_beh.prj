@@ -1,0 +1,6 @@
+verilog isim_temp "register_file.v"
+verilog isim_temp "control_unit.v"
+verilog isim_temp "alu.v"
+verilog isim_temp "datapath.v"
+verilog isim_temp "datapath_tb.v"
+verilog isim_temp "D:/xilinx/xilinx_installations/14.7/ISE_DS/ISE//verilog/src/glbl.v"

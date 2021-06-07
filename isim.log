@@ -1,11 +1,11 @@
 ISim log file
-Running: D:\activeHdlProjects\mips-alu\ALU\alu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/activeHdlProjects/mips-alu/ALU/alu_tb_isim_beh.wdb 
+Running: D:\activeHdlProjects\mips-alu\ALU\datapath_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/activeHdlProjects/mips-alu/ALU/datapath_tb_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
+WARNING: File "D:/activeHdlProjects/mips-alu/ALU/datapath.v" Line 8.  For instance uut/alu_inst/, width 32 of formal port result is not equal to width 1 of actual signal ALUOutput.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-Stopped at time : 800 ns : File "D:/activeHdlProjects/mips-alu/ALU/alu_tb.v" Line 39

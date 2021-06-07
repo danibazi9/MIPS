@@ -1,0 +1,6 @@
+verilog work "register_file.v"
+verilog work "control_unit.v"
+verilog work "alu.v"
+verilog work "datapath.v"
+verilog work "datapath_tb.v"
+verilog work "D:/xilinx/xilinx_installations/14.7/ISE_DS/ISE//verilog/src/glbl.v"

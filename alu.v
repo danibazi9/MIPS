@@ -1,14 +1,12 @@
 `timescale 1ns / 1ps
 
-module alu(opcode, a, b, result, zero);
+module alu(opcode, a, b, result);
 	input [3:0] opcode;
 	input [31:0] a;
 	input [31:0] b;
 	output reg [31:0] result;
-	output reg zero;
-	reg sign;
 	reg [31:0] y;
-	integer i, j, c;
+	integer i;
 	
 	always @(opcode, a, b)
 	begin
@@ -63,6 +61,4 @@ module alu(opcode, a, b, result, zero);
 			end
 		endcase
 	end
-	
-	
 endmodule

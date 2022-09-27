@@ -8,6 +8,11 @@ We've implemented 32-bit **pipelined MIPS architecture** by the `Verilog` hardwa
 We use this schema as the base architecture:
 ![image](https://user-images.githubusercontent.com/45814681/192596662-85a4b9f9-0a63-46b9-9bed-e85069ec8a98.png)
 
+Some virtualization images:
+![image](https://s6.uupload.ir/files/q1_i9q8.png)
+![image](https://s6.uupload.ir/files/q2_z9yb.png)
+![image](https://s6.uupload.ir/files/q3_d8kw.png)
+
 
 **Notes:**
 + There are several Verilog files in this project with the format `.v`. To run the whole project, you need to open the whole folder in some special softwares such as `Xilinx`.
